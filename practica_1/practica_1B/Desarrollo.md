@@ -14,6 +14,8 @@ Universidad Industrial de Santander
 ## Punto 1
 #### 1. ¿De que depende la precisión de medida en el osciloscopio? (describa en no menos de 50 palabras)
 
+  La precisión de medida en el osciloscopio depende de varios factores. Uno de ellos es el cable de comunicación entre el USRP-2920 y el osciloscopio, ya que puede generar pérdidas en la señal o provocar ruido, esto depende de la calidad y longitud. Además, tanto el osciloscopio como el USRP-2920, pueden agregar ruido que afecta la medición. Por otro lado, si la señal que se mide supera los rangos mínimo o máximo del osciloscopio, la medición puede verse afectada por saturación o falta de resolución, lo que impide obtener resultados precisos.
+
 #### 2. Determine el porcentaje de amplitud de la señal recibida con respecto a la señal generada desde el PC. Es igual para todos los casos, en caso de ser diferente ¿a que atribuye esta caída de tensión. (describa en no menos de 50 palabras)
 
 #### Caso 1: gtx=10
