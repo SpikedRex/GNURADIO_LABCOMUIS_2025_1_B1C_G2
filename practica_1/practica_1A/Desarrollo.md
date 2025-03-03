@@ -44,6 +44,6 @@ Universidad Industrial de Santander
 
 ## Punto 6
   La gráfica obtenida corresponde a un Seno de frecuencia 2 K Hz y una frecuencia de muestreo de 40 K Hz, por lo tanto, se tiene una relación samp_rate/frequency de 20. Es posible apreciar que para esta relación, se recupera muy bien la señal original.
-  <img src="[https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1A/Punto%205%20-%20NysquitYRelacion_2.pn](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1A/Punto%206.PNG)g" alt="Punto 6" width="1200">
+  <img src="https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1A/Punto%206.PNG" alt="Punto 6" width="1200">
 
   
