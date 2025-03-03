@@ -1,4 +1,4 @@
-# Práctica 1A: GNU Radio para el procesamiento de señales
+# Práctica 1B: Reconociendo equipos
 
 ### Integrantes
 - **DANILO ALEXANDER DURÁN MEJÍA** - 2210405
