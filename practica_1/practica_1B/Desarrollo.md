@@ -52,3 +52,12 @@ Arcivo .xlsx: [`Práctica1B-Punto1.xlsx`](https://github.com/SpikedRex/GNURADIO_
 | 62.5           | 37.99                  | 240.24              | 120.1               | 192.19 %   |
 
 <img src="https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1B/GraphCaso3.PNG" alt="Punto 2" width="1200">
+
+Es posible apreciar de las anteriores gráficas que a medida que aumenta la ganancia de transmisión (GTX), el porcentaje de amplitud de la señal medida con respecto a la señal generada también aumenta. En otras palabras, a mayor gtx, mayor perdida de la amplitud. Cada 10 puntos que aumete gtx, la perdida aumenta el doble. Este comportamiento es debido a diversos fáctores tales como el cable de conexión y su longitud ademas de que aumentar el gtx tambíen puede aumentar el ruido del sistema, haciendo que la presicion del osciloscopio se vea afectada.
+
+#### Fotos de las señales medidas:
+| ![Imagen 1](WhatsApp%20Image%202025-03-03%20at%208.36.37%20PM%20(1).jpeg) | ![Imagen 2](WhatsApp%20Image%202025-03-03%20at%208.36.37%20PM%20(2).jpeg) | ![Imagen 3](WhatsApp%20Image%202025-03-03%20at%208.36.37%20PM.jpeg) |
+|---|---|---|
+| ![Imagen 4](WhatsApp%20Image%202025-03-03%20at%208.36.38%20PM%20(1).jpeg) | ![Imagen 5](WhatsApp%20Image%202025-03-03%20at%208.36.38%20PM%20(2).jpeg) | ![Imagen 6](WhatsApp%20Image%202025-03-03%20at%208.36.38%20PM.jpeg) |
+| ![Imagen 7](WhatsApp%20Image%202025-03-03%20at%208.36.39%20PM%20(1).jpeg) | ![Imagen 8](WhatsApp%20Image%202025-03-03%20at%208.36.39%20PM%20(2).jpeg) | ![Imagen 9](WhatsApp%20Image%202025-03-03%20at%208.36.39%20PM%20(3).jpeg) |
+| ![Imagen 10](WhatsApp%20Image%202025-03-03%20at%208.36.40%20PM%20(1).jpeg) | ![Imagen 11](WhatsApp%20Image%202025-03-03%20at%208.36.40%20PM%20(2).jpeg) | ![Imagen 12](WhatsApp%20Image%202025-03-03%20at%208.36.40%20PM.jpeg) |
