@@ -71,6 +71,49 @@ Cúando se tiene una frecuencia muy alta, el piso de ruido puede aumentar. Cúan
 
 ---
 
+## Actividad 2
+### 1. Iniciar GNU Radio
+##### Configure la frecuencia de muestreo (samp_rate) en 20 kHz
+<img src="w40.PNG" height="100">
+
+### 2. Ejecutar el Flujograma:
+##### Identifique y relacione los bloques presentes en el flujograma con lo observado en la ventana de ejecución.
+
+| Variable | Ventana Ejecución                | Bloque flujograma |
+|-----------------|-----------------------| -----------------------|
+| Source Type | <img src="w41.PNG" width="250"> | <img src="w42.PNG" height="100"> |
+| Waveform | <img src="w43.PNG" width="250"> | <img src="w44.PNG" height="100"> |
+| Amplitude | <img src="45.PNG" width="250"> | <img src="46.PNG" height="100"> |
+| Frecuency in Hz | <img src="47.PNG" width="250"> | <img src="48.PNG" height="100"> |
+| Offset | <img src="49.PNG" width="250"> | <img src="50.PNG" height="100"> |
+| Phase Rad | <img src="51.PNG" width="250"> | <img src="52.PNG" height="100"> |
+| Noise Voltage | <img src="53.PNG" width="250"> | <img src="54.PNG" height="100"> |
+| Carrier Frecuency in MHz | <img src="55.PNG" width="250"> | <img src="w56.PNG" height="100"> |
+| Tx gain in dB | <img src="w57.PNG" width="250"> | <img src="w58.PNG" height="100"> |
+
+### 3. Análisis de Señales:
+##### Analice y valide los resultados en el dominio del tiempo y de frecuencia si se modifica
+- El tipo de dato de la fuente (compleja o flotante)
+
+  | <img src="w59.PNG" height="300">            | <img src="w60.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- La forma de onda
+
+  | <img src="w61.PNG" height="300">            | <img src="w62.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- La frecuencia y fase de la señal
+
+  | <img src="w62.PNG" height="300">            | <img src="w64.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- Efectos de modificar la amplitud de la señal generada.
+  
+  | <img src="w63.PNG" height="300">            | <img src="w66.PNG" height="300">                 |
+  |-----------------|-----------------------|
+---
+
 ## Actividad 3
 ### 1. Configurar el USRP 2920:
 ##### Identifique el bloque de frecuencia de muestreo (samp_rate) y observe el efecto de cambiar su valor (e.g. 10 kHz).
