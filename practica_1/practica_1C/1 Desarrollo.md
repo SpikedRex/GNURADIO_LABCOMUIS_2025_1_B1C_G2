@@ -112,6 +112,25 @@ Cúando se tiene una frecuencia muy alta, el piso de ruido puede aumentar. Cúan
   
   | <img src="w63.PNG" height="300">            | <img src="w66.PNG" height="300">                 |
   |-----------------|-----------------------|
+
+##### Modifique el nivel de ruido del modelo de canal y analice el efecto en tiempo y frecuencia.
+  | <img src="w66.PNG" height="300">            | <img src="w67.PNG" height="300">                 |
+  |-----------------|-----------------------|
+
+Es posible apreciar que al agregar ruido, la señal en el dominio del tiempo pierde forma ya que se distociona y se vuelve impredecible, por otro lado, en la frecuencia ocurrre algo similar lo que hace que recuperar la señal sea muy complicado ya que se pierde la inforamción de de las frecuencias de la señal original.
+
+### Preguntas Orientadoras
+#### 1. ¿Cómo se puede explicar matemáticamente la diferencia entre una fuente de tipo flotante y una de tipo complejo?
+La fuente compleja está refenreciada a tierra (V+=value; V-=0) mientras que la fuente flotante está referenciada a otro punto fijo distinto de tierra (V+=Vref+Vpunto/2; V-=Vref-Vpunto/2)
+#### 2. ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?
+Las ondas pueden ser descompuestas en otras ondas senoidales de distinta frecuencia, por lo tanto, una onda simple comoun seno concentra toda su energía en una sóla frecuencia, mientras que las ondas cuadradas o de sierra al tener más cambios, la energía se reparteen más frecuencias haciendo que se vean mas "picos" en la gráfica de frecuencia.
+#### 3. ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
+Si corresponde a lo teorico ya que como se pudo apreciar, los cambios en la amplitud o frecuencia reflejaron comportamientos esperados.
+#### 4. ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
+Al aumentar la amplitud de la señal, en el dominio de la frecuenia, la potencia observada también aumentó.
+#### 5. ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
+En la señal senoidal se parecian sólo dos "picos" mientras que en la de frecuencia se pueden apreciar mucho más esto sugiere que la onda cuadrada tiene más energía que la senoidal con los mismos parámetros., esto se explicó anteriormente en cómo la forma d ela onda afecta la distribución de energía.
+
 ---
 
 ## Actividad 3
