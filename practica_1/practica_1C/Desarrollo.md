@@ -73,10 +73,14 @@ Cúando se tiene una frecuencia muy alta, el piso de ruido puede aumentar. Cúan
 
 ## Actividad 3
 ### 1. Configurar el USRP 2920:
-Identifique el bloque de frecuencia de muestreo (samp_rate) y observe el efecto de cambiar su valor (e.g. 10 kHz).
+##### Identifique el bloque de frecuencia de muestreo (samp_rate) y observe el efecto de cambiar su valor (e.g. 10 kHz).
 <img src="w11.PNG" height="300">
 
-Configure la frecuencia de muestreo (samp_rate) en 1 MHz.
+##### Configure la frecuencia de muestreo (samp_rate) en 1 MHz.
 <img src="w12.PNG" height="300">
 
 Es posible apreciar que al aumentar el samp_rate, esos dos picos que aparecían a 10 KHz "Desaparecen" (en realidad se hacen muy pequeños) esto debido a que muestrear con una frecuencia más alta, la resolución espectral aumenta permitiendo tener más información de más frecuencias.
+
+##### Verifique el efecto de modificar la frecuencia y ganancia del USRP.
+
+No se aprecian efectos en la simulación al modificar dichos parámetros.
