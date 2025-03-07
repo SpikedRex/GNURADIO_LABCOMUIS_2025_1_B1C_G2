@@ -84,3 +84,25 @@ Es posible apreciar que al aumentar el samp_rate, esos dos picos que aparecían 
 ##### Verifique el efecto de modificar la frecuencia y ganancia del USRP.
 
 No se aprecian efectos en la simulación al modificar dichos parámetros.
+
+### 2. Medición con el Analizador de Espectros:
+##### Mida el piso de ruido normalizado a la frecuencia de portadora que va a utilizar.
+El piso de ruido a una frecuencia portadora de 500 MHz es de aproximadamente -95 dBm
+
+<img src="w14.PNG" height="300">
+<img src="w13.PNG" height="300">
+
+##### Compare el espectro de la señal observada en el analizador de espectros con la observada en la pantalla de simulación.
+
+| Simulación | Analizador de espectros |
+|-----------------|-----------------------|
+| <img src="w15.PNG" height="300">            | <img src="w16.PNG" height="300">                 |
+| Ganacia: Aprox. 55 dB = $$\text{55} - 10\log_{10}\left(\frac{1\text{mW}}{1\text{W}}\right)$$ = Aprox. 85 dBm | Ganancia: Aporx. 60 dBm |
+
+Es posible apreciar que la señal observada en el analizador de espectros es muy similar en forma y frecuencia central con respecto a la simulación (500 MHz) sin embargo, se presenta una caída en la ganancia de aproximadamente 15 dBm  debido a un posible ruido que aparece duránte la transmisión muy posiblemente al hardware del USRP y la calidad del cable de conexión, ademas, este último puede generar atenuaciones duránte la transmisión provocando caídas de ganancia.
+
+##### Compare el espectro de la señal observada en el analizador de espectros con la observada en la pantalla de simulación.Analice y valide los resultados en el dominio de la frecuencia si se modifica:
+- El tipo de dato de la fuente (compleja o flotante)
+- La forma de onda
+- La frecuencia y fase de la señal
+- La amplitud de la señal generada.
