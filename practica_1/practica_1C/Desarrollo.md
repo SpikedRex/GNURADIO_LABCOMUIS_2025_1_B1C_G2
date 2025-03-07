@@ -103,6 +103,61 @@ Es posible apreciar que la señal observada en el analizador de espectros es muy
 
 ##### Compare el espectro de la señal observada en el analizador de espectros con la observada en la pantalla de simulación.Analice y valide los resultados en el dominio de la frecuencia si se modifica:
 - El tipo de dato de la fuente (compleja o flotante)
+
+  | <img src="w17.PNG" height="300">            | <img src="w18.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
 - La forma de onda
+
+  | <img src="w19.PNG" height="300">            | <img src="w20.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
 - La frecuencia y fase de la señal
-- La amplitud de la señal generada.
+
+  | <img src="w21.PNG" height="300">            | <img src="w22.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- Efectos de modificar la amplitud de la señal generada.
+  
+  | <img src="w23.PNG" height="300">            | <img src="w24.PNG" height="300">                 |
+  |-----------------|-----------------------|
+
+##### Mida potencia de la señal transmitida y ancho de banda de diferentes señales generadas.
+
+| Tipo de señal | Simulación | Analizador de espectros |
+|-----------------|-----------------|-----------------------|
+| Diente de sierra | <img src="w25.PNG" height="300">            | <img src="w26.PNG" height="300"> Potencia: Aprox. 5 dBm y Ancho de banda 1.26 MHz                |
+| Seno | <img src="w27.PNG" height="300">            | <img src="w28.PNG" height="300"> Potencia: Aprox. 15 dBm y Ancho de banda 846 KHz                |
+| Triangular | <img src="w29.PNG" height="300">            | <img src="w30.PNG" height="300"> Potencia: Aprox. 25 dBm y Ancho de banda 846 KHz                |
+
+##### Conecte una antena apropiada a la entrada del analizador de espectros y observe el espectro de una señal FM (las estaciones FM se sitúan entre los 88 MHz y 108 MHz). Mida su ancho de banda y relación señal a ruido. 
+
+Se eligió la señal a 90.7 MHz (W Radio):
+- Ancho de banda: 2.2 MHz
+- Relación señal a ruido (SNR): ![Ecuación](https://latex.codecogs.com/png.latex?SNR_{dB}=P_{senal,%20dBm}-P_{ruido,%20dBm}) = |-73.92-(-85)| = 11.08 dBm
+  
+<img src="w31.PNG" height="300">
+
+[![🔊 Vista la señal a 90.7 MHz (W Radio)]](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1C/Se%C3%B1al%2090.7%20MHz.mp4)
+
+### 3. Medición con el Osciloscopio:
+##### Analice y valide los resultados en el dominio del tiempo si se modifica:
+- El tipo de dato de la fuente (compleja o flotante)
+
+  | <img src="w32.PNG" height="300">            | <img src="w33.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- La forma de onda
+
+  | <img src="w34.PNG" height="300">            | <img src="w35.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- La frecuencia y fase de la señal
+
+  | <img src="w36.PNG" height="300">            | <img src="w37.PNG" height="300">                 |
+  |-----------------|-----------------------|
+  
+- Efectos de modificar la amplitud de la señal generada.
+  
+  | <img src="w38.PNG" height="300">            | <img src="w39.PNG" height="300">                 |
+  |-----------------|-----------------------|
