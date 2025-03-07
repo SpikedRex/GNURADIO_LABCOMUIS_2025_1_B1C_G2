@@ -134,7 +134,7 @@ Es posible apreciar que la señal observada en el analizador de espectros es muy
 
 Se eligió la señal a 90.7 MHz (W Radio):
 - Ancho de banda: 2.2 MHz
-- Relación señal a ruido (SNR): ![Ecuación](https://latex.codecogs.com/png.latex?SNR_{dB}=P_{senal,%20dBm}-P_{ruido,%20dBm}) = |-73.92-(-85)| = 11.08 dBm
+- Relación señal a ruido (SNR): ![Ecuación](https://latex.codecogs.com/png.latex?SNR_{dB}=P_{senal,%20dBm}-P_{ruido,%20dBm}) = -73.92-(-85) = 11.08 dB
   
 <img src="w31.PNG" height="300">
 
@@ -161,3 +161,15 @@ Se eligió la señal a 90.7 MHz (W Radio):
   
   | <img src="w38.PNG" height="300">            | <img src="w39.PNG" height="300">                 |
   |-----------------|-----------------------|
+
+### 4. Cálculo de la Relación Señal a Ruido (SNR):
+
+Recordar que la relación señal a ruido (SNR): ![Ecuación](https://latex.codecogs.com/png.latex?SNR_{dB}=P_{senal,%20dBm}-P_{ruido,%20dBm})
+
+| Señal | Pseñal (dBm)                | Pruido (dBm) | SNR (dB) |
+|-----------------|-----------------------| -----------------------|-----------------------|
+| 90.7 MHz (W Radio) | -73.9 | -85 | 11.08 |
+| Diente de sierra (Presentada anteriormente) | -48.34 | -85 | 36.66 |
+| Seno (Presentada anteriormente) | -41.65 | -85 | 43.35 |
+| Triangular (Presentada anteriormente) | -28.58 | -85 | 56.42 |
+  
