@@ -172,4 +172,17 @@ Recordar que la relación señal a ruido (SNR): ![Ecuación](https://latex.codec
 | Diente de sierra (Presentada anteriormente) | -48.34 | -85 | 36.66 |
 | Seno (Presentada anteriormente) | -41.65 | -85 | 43.35 |
 | Triangular (Presentada anteriormente) | -28.58 | -85 | 56.42 |
-  
+
+### Preguntas Orientadoras
+#### 1. ¿Cómo se configura el USRP 2920 para transmitir una señal en una frecuencia específica?
+Para transimitir una señal a una frecuencia específica es necesario conectar el cable de ethernet del pc a el USRP 2920, es necesario ejecutar y diseñar un diagramaen GNU radio y activar el bloque UHD:URSP Sink y con el deslizador de la frecuencia, ajustamos al valor deseado. (Es importante agregar una ganancia de transmisión ya que la señal podría perderse por el ruido que se pueda presentar en el canal)
+#### 2. ¿Qué parámetros del flujograma afectan la potencia de la señal transmitida?
+El parámetro "Tx gain in dB"
+#### 3. ¿Cómo se mide el ancho de banda de la señal transmitida en el analizador de espectros?
+Se debe presionar el boton "Mkr", a continuación se selecciona un marcador, luego se selecciona la opción "Marker Mode Marker 1" y finalmente en "N dB"
+#### 4. ¿Cómo se calcula la relación señal a ruido (SNR) a partir de las mediciones de potencia y piso de ruido?
+Dado que el analizador de espextros entrega las mediciones en dBm, la relación señal a ruido se puede calcular como: ![Ecuación](https://latex.codecogs.com/png.latex?SNR_{dB}=P_{senal,%20dBm}-P_{ruido,%20dBm})
+#### 5. ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
+La señal se atenúa considerablemente incluso si se reduce el parámetro "Tx gain in dB" a 0, la señal que se envía puede perderse ya que se mezcla con el piso de ruido.
+#### 6. ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
+No es posible porque el osciloscopio sólo ofrece valores de tensión (V) en el dominio del tiempo.
