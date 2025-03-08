@@ -70,3 +70,10 @@ Esta atenuación de la potencia puede deberse a varios factores, entre ellos:
 - Las gráficas obtenidas en el analizador de espectros coincidieron con las esperadas en la simulación. A pesar de la presencia de un piso de ruido, este no fue lo suficientemente alto como para opacar la señal, ya que se aplicó una ganancia de transmisión (TX) de 30 dB, lo que permitió una correcta visualización de los espectros.
 
 - En la medición de la señal FM, se observaron ganancias bajas. Si bien el piso de ruido influyó en la calidad de la señal recibida, la principal limitación pudo haber sido la calidad de la antena utilizada, ya que se esperaba obtener una ganancia mayor. No obstante, fue posible visualizar el espectro de las estaciones de radio y sintonizar una de ellas, lo que confirma que el procedimiento de medición fue exitoso, aunque con margen de mejora en la recepción de la señal.
+
+## **Anexos**
+- Desarrollo y evidencias práctica 1A: [`Informe práctica 1A.md`](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1A/Desarrollo.md?plain=1)
+  
+- Desarrollo y evidencias práctica 1B: [`Informe práctica 1B.md`](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1B/Desarrollo.md)
+
+- Desarrollo y evidencias práctica 1C: [`Informe práctica 1C.md`](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_1/practica_1C/1%20Desarrollo.md)
