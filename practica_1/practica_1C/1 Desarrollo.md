@@ -76,6 +76,7 @@ Figura de ruido:
 ### Preguntas Orientadoras
 #### 1. ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?
 #### 2. ¿Qué parámetros del USRP 2920 se deben configurar para transmitir una señal en una frecuencia específica?
+Frecuencia central, tasa de muestreo, ganancia de transmisión y tipo de señal.
 #### 3. ¿Cómo se configura el osciloscopio para medir la amplitud y la frecuencia de una señal?
 Para medir la amplitud hacemos click en el botón de "Menu", luego en "Medida", luego seleccionamos tipo "Vertical" y damos click en el cuadro de "Amplitud".
 
