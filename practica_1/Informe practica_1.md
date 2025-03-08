@@ -19,6 +19,16 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 Uso de IA:"Se utilizó ChatGPT para reformular secciones del texto, verificar gramática y automatización de código, pero el contenido técnico fue desarrollado íntegramente por los autores..
 
 ---
+### Resumen
+
+Se compararon tres señales simuladas en GNU Radio con las mediciones obtenidas en el analizador de espectros R&S FPC1000, observándose diferencias en la potencia y la presencia de un piso de ruido, el cual no estaba presente en la simulación y afectó las mediciones. Se calculó la Relación Señal a Ruido (SNR), obteniendo valores entre 36.66 dB y 56.42 dB, lo que indica señales claras pero con cierta pérdida de potencia. En la medición de una señal de radio FM a 90.7 MHz (W Radio), la baja potencia registrada (-73.92 dBm) dificultó su detección, posiblemente debido a la calidad de la antena, interferencias o pérdidas en las conexiones. La aplicación de 30 dB de ganancia en TX permitió visualizar correctamente las señales, destacando la importancia de una adecuada configuración del sistema de medición.
+
+**Palabras clave:** SNR, Señal, Radio, Ganancia, Potencia. 
+
+### Introducción
+
+Esta practica abordará el uso del analizador de espectros R&S FPC1000 para medir y analizar señales generadas por GNU Radio y transmitidas a tavés del USRP 2920. Se analizarón tres tipos de señales (diente de sierra, seno y triangular) comparando caracteristicas en simulación y el analizador de espectros. Finalmente se analizó una señal de radio FM en 90.7 MHz para evaluar el impacto del piso de ruido y la calidad de la antena en la recepción de señales.
+
 ## **Procedimiento**
 
 Durante toda la práctica, se realizaron mediciones utilizando el analizador de espectros R&S FPC1000, al cual se enviaron señales a través del USRP desde GNU Radio. Se analizaron tres tipos de señales diferentes: diente de sierra, seno y triangular. A continuación, se presentan los resultados obtenidos:
