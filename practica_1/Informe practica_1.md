@@ -1,4 +1,6 @@
-# Práctica 1C: Mediciones de potencia y frecuencia
+# Laboratorio de Comunicaciones
+## Universidad Industrial de Santander
+# Práctica 1: Mediciones de potencia y frecuencia
 
 ### Integrantes
 - **DANILO ALEXANDER DURÁN MEJÍA** - 2210405
