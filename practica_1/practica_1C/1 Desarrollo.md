@@ -12,8 +12,26 @@ Universidad Industrial de Santander
 ---
 
 ## Actividad 1
+### 2. Seleccionar Especificaciones Relevantes
+#### -  USRP 2920:
+- Frecuencia de operación: 50 MHz a 2.2 GHz
+- Ancho de banda: 160 MHz
+- USB 3.0
+-  Compatible con GNU Radio y SDR
+- Potencia de salida ajustable
+#### -  Osciloscopio R&S RTB2004:
+- asa de muestreo de hasta 2.5 GSa/s
+- USB y LAN
+- FFT, decodificación serial
+-  Memoria de hasta 20 M puntos
+- 4 canales analógicos
+#### -  Analizador de Espectros R&S FPC1000:
+- Frecuencia de operación: 5 KHz a 1 GHz
+- Ancho de banda de resolución ajustable
+- Marcadores y mediciones automatizadas
+- Alta sensibilidad de ruido
+- Permite evaluar señales moduladas en amplitud y frecuencia
 ### 3. Configuración de los Equipos
-#### - USRP 2920:
 #### -  Osciloscopio R&S RTB2004:
 
 Escala horizontal: Mínimo 1 n/s y máximo 500 s
