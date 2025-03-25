@@ -1,6 +1,6 @@
 # Laboratorio de Comunicaciones
 ## Universidad Industrial de Santander
-# Práctica 1: Mediciones de potencia y frecuencia
+# Práctica 2A. Modelo de canal
 
 ### Integrantes
 - **DANILO ALEXANDER DURÁN MEJÍA** - 2210405
@@ -21,4 +21,5 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 Uso de IA:"Se utilizó ChatGPT para reformular secciones del texto, verificar gramática y automatización de código, pero el contenido técnico fue desarrollado íntegramente por los autores..
 
 ---
-### Resumen
+## Actividad 1: Actividades de simulación de canal en GNU Radio
+
