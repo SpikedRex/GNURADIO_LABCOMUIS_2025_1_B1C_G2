@@ -70,7 +70,12 @@ Uso de IA:"Se utilizó ChatGPT para reformular secciones del texto, verificar gr
 ### Preguntas Orientadoras
 
 - ¿Cuál es el efecto del ruido sobre la amplitud de las señales medidas en el osciloscopio? ¿Conservan las mismas relaciones que se evidencian en la simulación?
-  
+
+  | Señal original            | Señal con ruido de 0.2                | Señal con ruido de 0.4                |
+  |-----------------|-----------------------|-----------------------|
+  | <img src="w23.PNG" height="300">            | <img src="w22.PNG" height="300">                 | <img src="w20.PNG" height="300">                 |
+    | <img src="w24.PNG" height="300">            | <img src="w21.PNG" height="300">                 | <img src="w19.PNG" height="300">                 |
+
 - ¿La relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?
 - Demuestre ¿cómo se puede mejorar la relación señal a ruido en una señal?
   
