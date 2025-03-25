@@ -77,8 +77,11 @@ Uso de IA:"Se utilizó ChatGPT para reformular secciones del texto, verificar gr
     | <img src="w24.PNG" height="300">            | <img src="w21.PNG" height="300">                 | <img src="w19.PNG" height="300">                 |
 
 - ¿La relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?
+
+
+
 - Demuestre ¿cómo se puede mejorar la relación señal a ruido en una señal?
-  
+
 - ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el osciloscopio? Evidenciar al menos con dos formas de onda.
   
 - Determine la afectación de un medio de transmisión coaxial (usar cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP.
