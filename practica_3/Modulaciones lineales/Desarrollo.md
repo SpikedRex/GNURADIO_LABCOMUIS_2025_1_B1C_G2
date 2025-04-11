@@ -5,7 +5,7 @@
 | <img src="punto_1/SimulacionGNURadioKaAmMenor1.PNG"> | <img src="punto_1/AnalizadorKaAmMayor1.PNG"> | -15.72 dBm | -16.58 dBm | -16.62 dBm |  1.803 | 20 KHz | 64.28 dBm |
 
 
-| Simulación GNU Radio | Osciloscopio | Amplitud de la señal portadora | Amplitud del mensaje | potencia de la señal con los valores de amplitud medidos | índice de modulación medido en el osciloscopio | frecuencia del mensaje |
+| Simulación GNU Radio | Osciloscopio | Amplitud De La Señal Portadora | Amplitud Del Mensaje | Potencia De La Señal Con Los Valores De Amplitud Medidos | Índice De Modulación Medido En El Osciloscopio | Frecuencia Del Mensaje |
 |-----------------|-----------------------| -----------------------| -----------------------|-----------------------|-----------------------|-----------------------|
 | <img src="punto_2/Caso1SimulacionGNURadio.PNG"> | <img src="punto_2/Caso1Osciloscopio.PNG"> | 153.8165 mV | 148.9335 mV | 122.9 MW |  0.968 | 20 KHz |
 | <img src="punto_2/Caso2SimulacionGNURadio.PNG"> | <img src="punto_2/Caso2Osciloscopio.PNG"> | 52.48 mV | 98.38 mV | 23.404 MW |  1.874 | 20 KHz |
