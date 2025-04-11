@@ -12,4 +12,4 @@
 | <img src="punto_2/Caso3SimulacionGNURadio.PNG"> | <img src="punto_2/Caso3Osciloscopio.PNG"> | 58.0045 mV | 21.0925 mV | 50.18 KW | 0.36 | 20 KHz |
 
 ## **Anexos**
-- Archivo de Simulación en GNU Radio usado: [`Practica3.grc`](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_3/Modulaciones lineales/Practica3.grc)
+- Archivo de Simulación en GNU Radio usado: [`Practica3.grc`](https://github.com/SpikedRex/GNURADIO_LABCOMUIS_2025_1_B1C_G2/blob/main/practica_3/Modulaciones%20lineales/Practica3.grc)
