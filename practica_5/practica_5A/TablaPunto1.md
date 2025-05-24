@@ -1,5 +1,5 @@
 | Imagen | Tipo de Onda       | Frecuencia Mensaje | Frecuencia Tren Pulsos | Relación Frecuencia | Ancho de Pulso | Ciclo Útil | Espectro del Mensaje         | Espectro del Tren de Pulsos       |
 |--------|--------------------|---------------------|-------------------------|----------------|----------------|------------|-------------------------------|------------------------------------|
-| ![Onda Senoidal](ruta/onda_senoidal.png) | Senoidal            | 100 Hz              | 1000 Hz                | 10             | 0.1 ms         | 10%        | Pico en 100 Hz a -15 dB        | Armónicos de 1 kHz                 |
+| ![Onda Senoidal](<img src="imagenes/Senoidal.png">) | Senoidal            | 100 Hz              | 1000 Hz                | 10             | 0.1 ms         | 10%        | Pico en 100 Hz a -15 dB        | Armónicos de 1 kHz                 |
 | ![Onda Cuadrada](ruta/onda_cuadrada.png) | Cuadrada            | 600 Hz              | 1000 Hz                | 1.666          | 0.3 ms         | 30%        | Armónicos de 600 Hz    | Armónicos de 1 kHz                 |
 | ![Diente de Sierra](ruta/onda_diente_sierra.png) | Diente de Sierra     | 5000 Hz             | 1000 Hz                | 0.2            | 0.5 ms         | 50%        | Armónicos de 5000 Hz   | Armónicos de 1 kHz                 |
